@@ -26,7 +26,7 @@
         <style>Strong {color: rgb(6, 0, 166);}body {background-color: rgb(210, 227, 245);}#header {background-color: rgb(159, 230, 224);}</style>
         <script src="../../../../../jspdfobject.js"></script>
         </head><body data-silex-id="body-initial" class="body-initial all-style enable-mobile silex-runtime" data-silex-type="container"><div id="example"></div>  
-        <script>PDFObject.embed("https://vaww.visn23.portal.va.gov/SiteDirectory/CDSS/Shared%20Documents/Antimicrobial%20CDSS%20Frequently%20Asked%20Questions%20V1.pdf", "#example");</script>
+    
     
     
     <object data="https://vaww.visn23.portal.va.gov/SiteDirectory/CDSS/Shared%20Documents/Antimicrobial%20CDSS%20Frequently%20Asked%20Questions%20V1.pdf"></object>  
@@ -77,6 +77,13 @@ OR
 <p></p>
     
 
+<script type="text/javascript">
+  $(document).ready(function(){
+	$('#header').load('../header-ads.html');
+    $('#footer').load('../footer-ads.html');
+    PDFObject.embed("pdfobject_sample.pdf", "#pdf_view");
+  });
+</script><!-- End of Silex HEAD tag do not remove -->
 
 
     <div class="silex-pages">
@@ -127,4 +134,4 @@ OR
 
 
 
-</body></html><!-- End of Silex HEAD tag do not remove -->
+</body></html>
